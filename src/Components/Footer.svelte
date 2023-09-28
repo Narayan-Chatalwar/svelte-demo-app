@@ -5,10 +5,12 @@
   let maindata = null;
   let footerdata = null;
 
-  const targetmainURL = "http://localhost:8080/maindata";
+  const targetmainURL = "https://proxyserver-seven.vercel.app/maindata";
+  // "http://localhost:8080/maindata";
   // "https://main--mywebsite--narayan-chatalwar.hlx.live/dataforindex.json";
 
-  const targetfooterURL = "http://localhost:8080/footerdata";
+  const targetfooterURL = "https://proxyserver-seven.vercel.app/footerdata";
+  // "http://localhost:8080/footerdata";
   // "https://main--mywebsite--narayan-chatalwar.hlx.live/dataforfooter.json";
 
   const getMainData = async () => {

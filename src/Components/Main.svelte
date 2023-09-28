@@ -6,7 +6,8 @@
 
   let maindata = null;
 
-  const targetURL = "http://localhost:8080/maindata";
+  const targetURL = "https://proxyserver-seven.vercel.app/maindata";
+  // "http://localhost:8080/maindata";
   // "https://main--mywebsite--narayan-chatalwar.hlx.live/dataforindex.json";
 
   const getMainData = async () => {
