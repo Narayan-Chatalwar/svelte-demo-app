@@ -1,0 +1,16 @@
+.footerleftcontent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+/* .footersection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+} */
+/* .maintitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+} */
