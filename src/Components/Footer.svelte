@@ -48,7 +48,7 @@
 
 <div>
   {#if maindata}
-    <div class="flex flex-row justify-between p-[50px]">
+    <div class="flex flex-col sm:flex-row justify-between p-[50px]">
       <div>
         <p class="text-[22px] font-bold mb-2.5">{maindata[4].title}</p>
         <p>{maindata[4].description}</p>

@@ -43,20 +43,25 @@
 
 <div>
   {#if maindata}
-    <div class="flex pt-[200px] pb-24 px-12 bg-[#f0ede8] gap-x-32">
+    <div
+      class="flex flex-col gap-9 sm:flex-row pt-[200px] pb-24 px-8 sm:px-12 bg-[#f0ede8] gap-x-32"
+    >
       <div class="flex flex-col gap-[20px]">
-        <p class="font-black text-[59px] leading-[66px] tracking-[4px]">
+        <p
+          class="font-black text-[36px] sm:text-[59px] sm:leading-[66px] tracking-[4px]"
+        >
           {maindata[0].title}
         </p>
-        <p class="font-light text-[26.3px]">{maindata[0].description}</p>
+        <p class="font-light text-[20.3px] sm:text-[26.3px]">
+          {maindata[0].description}
+        </p>
       </div>
       <div>
         <iframe
+          class=" w-full sm:w-[640px] sm:h-[360px]"
           title="herovideo"
           id="video-iframe"
           src={`${maindata[0].medialink}&autoplay=1&muted=1`}
-          width="640"
-          height="360"
           frameborder="0"
           allowfullscreen
           allow="autoplay"
@@ -66,7 +71,7 @@
   {/if}
 
   {#if maindata}
-    <div class="flex gap-[60px] py-24 px-12">
+    <div class="flex flex-col sm:flex-row gap-[60px] py-24 px-12">
       <div>
         <img src={maindata[1].medialink} class="w-full" alt="section1" />
       </div>
@@ -84,7 +89,7 @@
   {/if}
 
   {#if maindata}
-    <div class="flex flex-row-reverse gap-[60px] py-24 px-12">
+    <div class="flex flex-col sm:flex-row-reverse gap-[60px] py-24 px-12">
       <div>
         <img src={maindata[2].medialink} class="w-full" alt="section1" />
       </div>
@@ -104,9 +109,9 @@
   {#if maindata}
     <div class="bg-[#f0ede8] py-[70px]">
       <div
-        class="flex flex-col justify-center items-center max-w-[883px] m-auto gap-[16px]"
+        class="flex flex-col justify-center text-center items-center max-w-[883px] m-auto gap-[16px]"
       >
-        <p class="text-[59px] font-bold">{maindata[3].title}</p>
+        <p class="text-[46px] sm:text-[59px] font-bold">{maindata[3].title}</p>
         <p class="text-[19px] text-center leading-[33px]">
           {maindata[3].description}
         </p>
