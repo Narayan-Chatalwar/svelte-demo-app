@@ -8,6 +8,7 @@
   <img
     src="https://main--mywebsite--narayan-chatalwar.hlx.live/siteimg/media_13fba40e91612c25ac55fd4069c53c0477cc92239.png"
     alt="mainlogo"
+    class="max-w-[200px]"
   />
   <div class="flex hidden sm:flex gap-5 text-md font-normal">
     <div>How it works</div>
